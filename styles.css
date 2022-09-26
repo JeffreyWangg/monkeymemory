@@ -1,0 +1,43 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+    flex-direction: column;
+}
+
+#game-canvas {
+    background-color: darkslategrey;
+}
+
+#timer {
+    font-family: monospace;
+}
+
+#outer-bar {
+    width: 500px;
+    height:30px;
+    background-color: rgb(186, 186, 186);
+    margin:10px
+}
+
+#inner-bar {
+    transition: width 0.5s;
+    width:0%;
+    height:100%;
+    background-color: aqua;
+}
+
+#timer-outer {
+    width: 500px;
+    height:30px;
+    background-color: green;
+    margin:10px
+}
+
+#timer-inner {
+    transition: width 0.01s;
+    width:100%;
+    height:100%;
+    background-color: aqua;
+}
