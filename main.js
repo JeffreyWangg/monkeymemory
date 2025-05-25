@@ -56,9 +56,6 @@ var timer_text_clicking = "green"
 //color of timer (number) when failure
 var timer_text_failure = "red"
 
-
-//==RANDOM BULLSHIT STARTS HERE==
-
 const boxes = []
 var started = false;
 var stopped = false;
